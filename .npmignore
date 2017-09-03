@@ -4,3 +4,4 @@ src/test
 .gitignore
 .editorconfig
 yarn.lock
+bin

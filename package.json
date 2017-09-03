@@ -1,6 +1,6 @@
 {
   "name": "retry-promise-typescript",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Typesafe Retry Promise",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -10,5 +10,18 @@
     "@types/got": "^7.1.3",
     "got": "^7.1.0",
     "typescript": "^2.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lookfirst/retry-promise-typescript.git"
+  },
+  "keywords": [
+    "retry",
+    "promise",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/lookfirst/retry-promise-typescript/issues"
+  },
+  "homepage": "https://github.com/lookfirst/retry-promise-typescript#readme"
 }

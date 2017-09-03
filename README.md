@@ -11,7 +11,7 @@ yarn add retry-promise-typescript
 ```
 
 ```
-import {RetryPromise} from '../';
+import {RetryPromise} from 'retry-promise-typescript';
 import * as got from 'got';
 
 new RetryPromise({retries: 10, log: true}).retry(got('https://www.google.com/')).then((result) => {

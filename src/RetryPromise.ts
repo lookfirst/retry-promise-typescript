@@ -43,7 +43,7 @@ export class RetryPromise {
 		}
 	}
 
-	private createTimeout (attempt: number, opts: RetryOptions): number {
+	private createTimeout(attempt: number, opts: RetryOptions): number {
 		const random = opts.randomize ? Math.random() + 1 : 1;
 		return Math.min(Math.round(random * opts.minTimeout * Math.pow(opts.factor, attempt)), opts.maxTimeout);
 	}

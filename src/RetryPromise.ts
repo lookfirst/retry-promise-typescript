@@ -28,7 +28,7 @@ export class RetryPromise {
 						.catch((error) => {
 							this.lastError = error;
 							this.log(`Retry: ${this.attempts} : ${JSON.stringify(error)}`);
-							return this.retry(executor);
+							return this.retry(executor).then(resolve).catch(reject);
 						});
 				}, this.createTimeout(this.attempts, this.options));
 			} else {

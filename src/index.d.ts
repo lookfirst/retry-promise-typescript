@@ -1,1 +1,1 @@
-export { RetryPromise } from './RetryPromise';
+export { RetryPromise, RetryOptions } from './RetryPromise';

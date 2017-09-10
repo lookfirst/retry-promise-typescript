@@ -1,5 +1,7 @@
 # Retry Promise for TypeScript
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lookfirst/retry-promise-typescript.svg)](https://greenkeeper.io/)
+
 ## About
 
 I couldn't find a simple implementation of a retrying Promise library for TypeScript, so here you go.
